@@ -7,9 +7,13 @@
 
 import json
 
-def getDataFromJson():
-    jsonFile = open("./json/staff.json","r")
+def getDataFromJsonSchemeTimes():
+    jsonFile = open("./json/schemetimes.json","r")
     staffdict = json.loads(jsonFile.read())
-    print(staffdict)
     return staffdict
+
+def getDataFromJsonStaff():
+    jsonFile = open("./json/staff.json","r")
+    stafflist = json.loads(jsonFile.read())
+    return stafflist
 

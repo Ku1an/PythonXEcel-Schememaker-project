@@ -1,4 +1,6 @@
 import functions as func
 
 
-func.getDataFromJson()
+
+new_dict = func.getDataFromJsonSchemeTimes()
+stafflist = func.getDataFromJsonStaff()
